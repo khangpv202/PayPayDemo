@@ -18,7 +18,7 @@ import java.math.BigDecimal
  */
 class CurrenciesResponseUnitTest {
     @Test
-    fun addition_isCorrect() {
+    fun test_custome_RateItemTypeAdapter() {
         val input = "{\n" +
                 "  \"success\":true,\n" +
                 "  \"terms\":\"https:\\/\\/currencylayer.com\\/terms\",\n" +
