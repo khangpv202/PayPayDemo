@@ -13,5 +13,7 @@ and view will auto change.
 Your link: https://currencylayer.com/ limit my account for the query that changed source base
 (default is USD and not allow other currency ), so when you select new currency, 
 I’m just update title and notify with this selected currency, but the real loading is for USD.
+For Singleton instance, when using dragger2, it has annanotion with @Singleton, but setup is take time, so i choose simple way is put it into company object :D
 8. write short unit test for RateItemTypeAdapter
 9. All code is write in Kotlin language.
+
