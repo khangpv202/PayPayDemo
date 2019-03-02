@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PayPay</string>
+    <string name="activity_sellect_currency">Sellect Currency</string>
+    <string name="activity_header_bar">Currency List</string>
+    <string name="fragment_rate_detail_header">Currency Base: %s</string>
+</resources>

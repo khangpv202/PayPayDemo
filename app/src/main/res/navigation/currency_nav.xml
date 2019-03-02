@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/currency_nav"
+    app:startDestination="@id/currencyListFragment">
+
+    <fragment
+        android:id="@+id/currencyListFragment"
+        android:name="com.example.paypay.ui.currencylist.CurrencyListFragment"
+        android:label="CurrencyListFragment" >
+        <action
+            android:id="@+id/action_currencyListFragment_to_rateDetailFragment"
+            app:destination="@id/rateDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rateDetailFragment"
+        android:name="com.example.paypay.ui.ratedetail.RateDetailFragment"
+        android:label="RateDetailFragment" >
+        <argument
+            android:name="currentcy_code"
+            app:argType="string" />
+    </fragment>
+</navigation>
